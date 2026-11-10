@@ -1,16 +1,96 @@
-# React + Vite
+# Little Learner 🌈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Little Learner** is a fun, interactive, and child-friendly educational website built using React. It is designed to make early childhood learning simple, engaging, and enjoyable through colorful visuals and interactive flashcards.
 
-Currently, two official plugins are available:
+## 📖 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Little Learner helps young children explore and recognize everyday things through different learning categories. Children can learn colors, animals, fruits, vegetables, and birds using attractive flashcards and voice pronunciation.
 
-## React Compiler
+The website provides a simple and playful learning experience with an easy-to-use interface designed especially for little learners.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 **Learn Colors** – Explore different colors with visual representations.
+- 🐘 **Learn Animals** – Discover animals through colorful flashcards.
+- 🍎 **Learn Fruits** – Identify different fruits.
+- 🥕 **Learn Vegetables** – Explore common vegetables.
+- 🐦 **Learn Birds** – Discover different types of birds.
+- 🔊 **Voice Pronunciation** – Listen to words using browser text-to-speech functionality.
+- 📱 **Responsive Design** – Accessible across desktop, tablet, and mobile devices.
+- 🧩 **Reusable Components** – Shared React components for a consistent learning experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router DOM
+- Vite
+- Browser Speech Synthesis API
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js
+- npm
+- Visual Studio Code (recommended)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <your-github-repository-url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd little-learner
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal (usually `http://localhost:5173`).
+
+## 📦 Production Build
+
+To create a production-ready build, run:
+
+```bash
+npm run build
+```
+
+The optimized production files will be generated in the `dist` folder.
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🌐 Live Demo
+
+Coming soon!
+
+## 🎯 Project Goal
+
+The goal of Little Learner is to create a joyful digital learning space where children can discover new words, recognize everyday objects, and develop early learning skills through interactive experiences.
+
+---
+
+**Made with ❤️ for little learners!**
