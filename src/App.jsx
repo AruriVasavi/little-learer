@@ -10,7 +10,7 @@ import Animals from "./pages/Animals";
 import Fruits from "./pages/Fruits";
 import Vegetables from "./pages/Vegetables";
 import Birds from "./pages/Birds";
-import Flashcards from "./pages/Flashcards";
+import FlashCards from "./pages/FlashCards";
 import "./App.css";
 
 function NotFound() {
@@ -35,7 +35,7 @@ function App() {
           <Route path="/fruits" element={<Fruits />} />
           <Route path="/vegetables" element={<Vegetables />} />
           <Route path="/birds" element={<Birds />} />
-          <Route path="/flashcards" element={<Flashcards />} />
+          <Route path="/flashcards" element={<FlashCards />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
