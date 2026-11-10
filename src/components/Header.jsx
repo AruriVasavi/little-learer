@@ -17,6 +17,7 @@ function Header() {
         <Link to="/fruits">Fruits</Link>
         <Link to="/vegetables">Vegetables</Link>
         <Link to="/birds">Birds</Link>
+        <Link to="/flashcards">Flashcards 🎴</Link>
       </nav>
     </header>
   );
